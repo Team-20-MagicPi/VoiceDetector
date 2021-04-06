@@ -49,7 +49,7 @@ http://wiringpi.com/download-and-install/
 
 ## Maintainer
 
-@Sei2112
+@[Sei2112](https://github.com/Sei2112)
 
 This is a very basic test program so there might be some problems, and some part may not clear and clever. Discussion is welcomed. 
 
