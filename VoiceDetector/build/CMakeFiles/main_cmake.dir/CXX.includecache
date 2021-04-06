@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Led.h
+iostream
+-
+wiringPi.h
+../include/wiringPi.h
+
+../include/MyPi.h
+iostream
+-
+wiringPi.h
+../include/wiringPi.h
+
+/home/pi/Desktop/VoiceDetector/main.cpp
+MyPi.h
+/home/pi/Desktop/VoiceDetector/MyPi.h
+
+/home/pi/Desktop/VoiceDetector/src/MyPi.cpp
+MyPi.h
+/home/pi/Desktop/VoiceDetector/src/MyPi.h
+Led.h
+/home/pi/Desktop/VoiceDetector/src/Led.h
+
