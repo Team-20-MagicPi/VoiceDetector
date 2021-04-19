@@ -1,7 +1,7 @@
 #include "MyPi.h"
 #include "Led.h"
 
-#define Sound 7 //gpio7 set as voice input
+#define Sound 25 //gpio25 set as voice input
 
 int tmp = 0;
 
