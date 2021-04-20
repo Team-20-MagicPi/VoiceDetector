@@ -23,7 +23,7 @@ Notice that on different systems, cmake files need to be changed according to re
 
 A voice sensor can detect the environmental voice and output high voltage as a signal. (However this cannot tell the exact signal of the sound)
 
-**In this program we connect the signal pin to port 7 of the Raspberry Pi, and a led is connected to port 26.**
+**In this program we connect the signal pin to port 25 of the Raspberry Pi, and a led is connected to port 26.**
 
 Thus, when we clap our hands, the voice would give a high voltage signal and raspberry pi can control the led accordingly.  
 
